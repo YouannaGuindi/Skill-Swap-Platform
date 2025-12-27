@@ -42,9 +42,9 @@ This project uses a MySQL database. To set it up locally:
 
 2. Create a database, e.g., skillswap_db.
 
-3. Import the provided SQL file (if available) or create tables manually:
+3. Import the provided SQL file or create tables manually:
 
-4. Update src/main/resources/db.properties (or wherever your DB config is) with:
+4. Update DBConnectionUtil.java (or wherever your DB config is) with:
     
     db.url=jdbc:mysql://localhost:3306/skillswap_db
     db.user=YOUR_DB_USERNAME
