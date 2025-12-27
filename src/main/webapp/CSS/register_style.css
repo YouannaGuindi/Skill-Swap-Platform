@@ -1,0 +1,91 @@
+@charset "UTF-8";
+/* Body style to center the form */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background: linear-gradient(to right, #6200ee, #03dac6);
+  font-family: 'Arial', sans-serif;
+}
+
+/* Form container styling */
+form {
+  background-color: white;
+  padding: 30px 40px;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  width: 400px;
+  max-width: 90%;
+}
+
+/* Table inside the form */
+form table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0 10px;
+}
+
+/* Table cell spacing */
+form td {
+  padding-bottom: 15px;
+}
+
+/* Label styling */
+label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 6px;
+  color: #6200ee;
+}
+
+/* Input fields styling */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="tel"] {
+  width: 100%;
+  padding: 10px 12px;
+  border: 2px solid #6200ee;
+  border-radius: 8px;
+  font-size: 1em;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+/* Input field focus effect */
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="tel"]:focus {
+  border-color: #03dac6;
+}
+
+/* Radio buttons and role labels */
+input[type="radio"] {
+  margin-right: 5px;
+}
+
+input[type="radio"] + label {
+  font-weight: normal;
+  margin-right: 20px;
+}
+
+/* Submit button */
+input[type="submit"] {
+  width: 100%;
+  padding: 12px;
+  background-color: #6200ee;
+  color: white;
+  font-size: 1em;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+  background-color: #4500b5;
+}
