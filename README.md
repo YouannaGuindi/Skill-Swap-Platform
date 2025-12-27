@@ -44,11 +44,11 @@ This project uses a MySQL database. To set it up locally:
 
 3. Import the provided SQL file or create tables manually:
 
-4. Update DBConnectionUtil.java (or wherever your DB config is) with:
+4. Update src/main/java/com/ProjAdvAndWeb/util/com/ProjAdvAndWeb/util/DBConnectionUtil.java with:
     
     db.url=jdbc:mysql://localhost:3306/skillswap_db
     db.user=YOUR_DB_USERNAME
     db.password=YOUR_DB_PASSWORD
 
-5. Restart the local server and run the project.
+6. Restart the local server and run the project.
 
